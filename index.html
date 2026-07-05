@@ -76,14 +76,14 @@
   section { padding:96px 8%; }
   .section-eyebrow { font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--green-600); margin-bottom:12px; }
   .section-title { font-family:var(--font-display); font-size:clamp(28px,3vw,40px); color:var(--slate-900); line-height:1.2; margin-bottom:20px; letter-spacing:-.3px; }
-  .section-lead { font-size:17px; color:var(--slate-600); font-weight:300; line-height:1.75; max-width:680px; margin-bottom:16px; }
+  .section-lead { font-size:17px; color:var(--slate-600); font-weight:400; line-height:1.75; max-width:680px; margin-bottom:16px; }
   .section-lead ul { margin:8px 0 0 20px; }
   .section-lead ul li { margin-bottom:4px; }
 
   /* ABOUT */
   #about { background:var(--white); }
   .about-grid { display:block; margin-top:20px; }
-  .about-text p { font-size:16px; color:var(--slate-600); font-weight:300; line-height:1.8; margin-bottom:20px; }
+  .about-text p { font-size:16px; color:var(--slate-600); font-weight:400; line-height:1.8; margin-bottom:20px; }
   .about-grid > div:last-child { margin-top:48px; }
   .about-text p strong { color:var(--slate-800); font-weight:500; }
   .news-ticker { display:flex; flex-direction:column; gap:0; }
@@ -161,6 +161,7 @@
   }
 
   @media(max-width:600px){.nav-links{display:none}}
+  @media(max-width:700px){.assessment-grid{grid-template-columns:1fr !important}}
   /* LANG TOGGLE */
   .lang-toggle { display:flex; gap:2px; align-items:center; margin-left:16px; }
   .lang-btn { background:transparent; border:1px solid var(--slate-200); color:var(--slate-500); padding:4px 10px; border-radius:6px; font-size:12px; font-weight:600; letter-spacing:.04em; cursor:pointer; transition:all .15s; }
@@ -261,13 +262,16 @@
     <div>
       <p style="font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--green-600);margin-bottom:20px;" id="ab-nhdr">Recent operator activity in Turkey</p>
       <div class="news-ticker">
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni1t">Equinix opens second Istanbul IBX (IL4), Oct 2024</strong><span id="ni1d">1,125 cabinets, 3,044 m² of colocation space with liquid cooling — Equinix's first high-density AI-ready facility in Turkey</span></div></div>
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni2t">DAMAC Digital + Vodafone Turkey — 00M Izmir JV, Feb 2024</strong><span id="ni2d">Joint venture to build a new data centre in İzmir; Vodafone Turkey's sixth facility in the country</span></div></div>
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni3t">Khazna Data Centers (G42) — up to 100 MW near Ankara</strong><span id="ni3d">AI-ready campus at Başkent Organised Industrial Zone; Ankara set to surpass Istanbul in upcoming capacity</span></div></div>
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni4t">Trendyol (Alibaba) — 00M, 48 MW Ankara campus</strong><span id="ni4d">Partnership with UAE-based Castle Investments; phased capacity launch from 2026</span></div></div>
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni5t">Google announces Turkey cloud region, Nov 2025</strong><span id="ni5d">Partnership with Turkcell to introduce hyperscale cloud and AI services with local data residency</span></div></div>
-        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni6t">EdgeConneX enters Istanbul market, 2024</strong><span id="ni6d">Among the new hyperscale entrants expanding Istanbul's capacity alongside existing players Equinix and Turkcell</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni1t">Equinix announces Istanbul IL3, Q3 2026</strong><span id="ni1d">Third IBX on the Dudullu OSB campus confirmed in Equinix's global expansion roadmap — extending Istanbul's position as the region's primary carrier-neutral hub</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni2t">KKB expands Ankara data centre to 30 MW — second module</strong><span id="ni2d">Turkey's Credit Registration Bureau adds a second building module at its Tier IV Anadolu facility in Sincan, taking total capacity to 30 MW and reinforcing Ankara as a sovereign-compute location</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni3t">Google announces Turkey cloud region, Nov 2025</strong><span id="ni3d">Partnership with Turkcell to introduce hyperscale cloud and AI services with local data residency</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni4t">Equinix IL4 opens in Istanbul, Oct 2024 — 9 MW</strong><span id="ni4d">1,125 cabinets across 3,045 m² of colocation space with liquid cooling — Equinix's first high-density AI-ready facility in Turkey</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni5t">Trendyol (Alibaba) — $500M, 48 MW Ankara campus</strong><span id="ni5d">Partnership with UAE-based Castle Investments; phased capacity launch from 2026</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni6t">DAMAC Digital + Vodafone Turkey — $100M İzmir JV, Feb 2024</strong><span id="ni6d">Joint venture to build a new data centre in İzmir; Vodafone Turkey's sixth facility in the country</span></div></div>
+        <div class="news-item"><div class="news-dot"></div><div class="news-body"><strong id="ni7t">Khazna Data Centers (G42) — up to 100 MW near Ankara</strong><span id="ni7d">AI-ready campus at Başkent Organised Industrial Zone; Ankara set to surpass Istanbul in upcoming capacity</span></div></div>
       </div>
+      </div>
+    </div>
     </div>
   </div>
 </section>
@@ -294,18 +298,67 @@
     </div>
     <div class="vc-step">
       <div class="vc-icon">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/><path d="M3 5a2 2 0 0 0 2 2h4M3 19a2 2 0 0 1 2-2h4"/></svg>
+      </div>
+      <div class="vc-title" id="vc3-ti">Fiber &amp; Connectivity</div>
+      <p class="vc-body" id="vc3-bd">We verify and secure dual-path fiber connectivity from national backbone providers, assess carrier-neutral exchange proximity, and commission telecom infrastructure design — a non-negotiable condition for any institutional operator.</p>
+    </div>
+        <div class="vc-step">
+      <div class="vc-icon">
         <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
       </div>
-      <div class="vc-title">Permitting & Design</div>
-      <p class="vc-body" id="vc3-bd">Zoning alignment, EIA completion, municipality approvals, and Tier III/IV conceptual design — all delivered to permit-ready standard with dual fibre secured.</p>
+      <div class="vc-title" id="vc4-ti">Permitting &amp; Design</div>
+      <p class="vc-body" id="vc4-bd">Zoning alignment, EIA completion, municipality approvals, and Tier III/IV conceptual design — all delivered to permit-ready standard with dual fibre secured.</p>
     </div>
     <div class="vc-step">
       <div class="vc-icon">
         <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
       </div>
-      <div class="vc-title" id="vc4-ti">Investor Exit</div>
-      <p class="vc-body" id="vc4-bd">We market to global hyperscale operators and institutional platforms, structuring the exit through outright sale, long-term lease, or structured co-development.</p>
+      <div class="vc-title" id="vc5-ti">Investor Exit</div>
+      <p class="vc-body" id="vc5-bd">We market to global hyperscale operators and institutional platforms, structuring the exit through outright sale, long-term lease, or structured co-development.</p>
     </div>
+  </div>
+
+  <div class="site-assessment" style="margin-top:56px; border-top:1px solid var(--slate-200); padding-top:40px;">
+    <h3 style="font-family:var(--font-serif); font-size:24px; font-weight:700; color:var(--green-900); margin-bottom:12px;" id="sa-hdr">Site Assessment Methodology</h3>
+    <p style="font-size:16px; color:var(--slate-600); font-weight:400; line-height:1.8; margin-bottom:24px; max-width:680px;" id="sa-intro">Site assessments are conducted with utmost care and diligence across the following primary evaluation headings — each site scored against a weighted matrix before any development commitment is made.</p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:24px;" class="assessment-grid">
+      <div class="assess-section">
+        <div style="font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--green-600); margin-bottom:10px;" id="as1-ey">Section I — Power, Water &amp; Infrastructure</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Power supply security, substation redundancy &amp; voltage levels</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Industrial water availability &amp; reliability</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Renewable energy &amp; sustainability</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Telecommunications, fiber &amp; backbone proximity</li>
+        </ul>
+      </div>
+      <div class="assess-section">
+        <div style="font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--green-600); margin-bottom:10px;" id="as2-ey">Section II — Risk &amp; Geographic Suitability</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Hydrological risks &amp; flood history</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Industrial hazards &amp; airport flight paths</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>EMI / RFI risks &amp; power line proximity</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Topography, soil structure &amp; expansion potential</li>
+        </ul>
+      </div>
+      <div class="assess-section">
+        <div style="font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--green-600); margin-bottom:10px;" id="as3-ey">Section III — Legal, Financial &amp; Incentives</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Zoning, permissions &amp; building regulations</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Energy incentives &amp; operational power costs</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Land acquisition model &amp; cost (CAPEX / OPEX)</li>
+        </ul>
+      </div>
+      <div class="assess-section">
+        <div style="font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--green-600); margin-bottom:10px;" id="as4-ey">Section IV — Logistics &amp; Operational Support</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Transportation infrastructure</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; border-bottom:1px solid var(--slate-100); display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>On-site operational support &amp; regional amenities</li>
+          <li style="font-size:14px; color:var(--slate-700); padding:5px 0; display:flex; gap:8px; align-items:flex-start;"><span style="color:var(--green-500); flex-shrink:0;">›</span>Skilled workforce availability</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:14px; color:var(--slate-500); font-weight:400; line-height:1.7; font-style:italic; max-width:700px;" id="sa-footer">For each site, Mazaca provides a model site layout plan, data centre building shell design, KMZ maps for the fiber infrastructure, and power substation details — all at Ready-to-Build standard.</p>
   </div>
 </section>
 
@@ -316,53 +369,726 @@
   <p class="section-lead" id="prj-lead">Our pipeline spans Turkey's largest demand centres and industrial hubs — combining hyperscale connectivity with access to growing enterprise, government and AI compute markets.</p>
   <div class="projects-map-wrap">
     <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
-      <defs>
-        <radialGradient id="mg2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#3daa6e" stop-opacity=".12"/><stop offset="100%" stop-color="#3daa6e" stop-opacity="0"/></radialGradient>
-        <filter id="glow2"><feGaussianBlur stdDeviation="4" result="cb"/><feMerge><feMergeNode in="cb"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-      </defs>
-      <!-- bg -->
-      <rect width="700" height="340" fill="rgba(6,43,24,0.0)" rx="16"/>
-      <ellipse cx="350" cy="170" rx="320" ry="140" fill="url(#mg2)"/>
-      <!-- Turkey shape (scaled up by ~700/600 ≈ 1.167x, centered) -->
-      <path d="M50,52 L104,40 L134,82 L157,78 L224,52 L292,44 L376,48 L459,74 L543,82 L633,86 L649,119 L660,148 L660,190 L660,232 L592,240 L526,253 L459,253 L415,245 L395,261 L381,278 L324,287 L258,292 L191,289 L124,276 L81,256 L63,200 L57,173 L73,117 L87,86 Z"
-        fill="rgba(30,122,74,.15)" stroke="rgba(61,170,110,.5)" stroke-width="1.5" stroke-linejoin="round"/>
-      <!-- grid -->
-      <line x1="0" y1="86" x2="700" y2="86" stroke="rgba(255,255,255,.04)" stroke-width="1" stroke-dasharray="4,10"/>
-      <line x1="0" y1="172" x2="700" y2="172" stroke="rgba(255,255,255,.04)" stroke-width="1" stroke-dasharray="4,10"/>
-      <line x1="175" y1="0" x2="175" y2="340" stroke="rgba(255,255,255,.04)" stroke-width="1" stroke-dasharray="4,10"/>
-      <line x1="350" y1="0" x2="350" y2="340" stroke="rgba(255,255,255,.04)" stroke-width="1" stroke-dasharray="4,10"/>
-      <line x1="525" y1="0" x2="525" y2="340" stroke="rgba(255,255,255,.04)" stroke-width="1" stroke-dasharray="4,10"/>
-
-      <!-- ISTANBUL cx=138, cy=86 -->
-      <circle cx="138" cy="86" r="28" fill="rgba(61,170,110,.07)" stroke="rgba(61,170,110,.25)" stroke-width="1"/>
-      <circle cx="138" cy="86" r="7" fill="#3daa6e" filter="url(#glow2)" opacity=".9"/>
-      <text class="proj-city-label" x="155" y="82" font-family="DM Sans,sans-serif" font-size="12" fill="rgba(255,255,255,.9)" font-weight="600">Istanbul</text>
-      <text class="proj-city-sub" x="155" y="97" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(255,255,255,.45)" id="sub-ist">Turkey's largest metropolis &amp; primary digital hub</text>
-
-      <!-- ANKARA cx=272, cy=132 -->
-      <circle cx="272" cy="132" r="24" fill="rgba(61,170,110,.07)" stroke="rgba(61,170,110,.25)" stroke-width="1"/>
-      <circle cx="272" cy="132" r="7" fill="#3daa6e" filter="url(#glow2)" opacity=".9"/>
-      <text class="proj-city-label" x="290" y="128" font-family="DM Sans,sans-serif" font-size="12" fill="rgba(255,255,255,.9)" font-weight="600">Ankara</text>
-      <text class="proj-city-sub" x="290" y="143" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(255,255,255,.45)" id="sub-ank">Capital &amp; sovereign compute</text>
-
-      <!-- IZMIR cx=77, cy=195 -->
-      <circle cx="77" cy="195" r="24" fill="rgba(61,170,110,.07)" stroke="rgba(61,170,110,.25)" stroke-width="1"/>
-      <circle cx="77" cy="195" r="7" fill="#3daa6e" filter="url(#glow2)" opacity=".9"/>
-      <text class="proj-city-label" x="94" y="191" font-family="DM Sans,sans-serif" font-size="12" fill="rgba(255,255,255,.9)" font-weight="600">İzmir</text>
-      <text class="proj-city-sub" x="94" y="206" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(255,255,255,.45)" id="sub-izm">Aegean connectivity hub</text>
-
-      <!-- KONYA cx=258, cy=216 -->
-      <circle cx="258" cy="216" r="24" fill="rgba(61,170,110,.07)" stroke="rgba(61,170,110,.25)" stroke-width="1"/>
-      <circle cx="258" cy="216" r="7" fill="#3daa6e" filter="url(#glow2)" opacity=".9"/>
-      <text class="proj-city-label" x="276" y="212" font-family="DM Sans,sans-serif" font-size="12" fill="rgba(255,255,255,.9)" font-weight="600">Konya</text>
-      <text class="proj-city-sub" x="276" y="227" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(255,255,255,.45)" id="sub-kon">Central Anatolian industrial hub</text>
-
-      <!-- KAYSERI cx=358, cy=182 -->
-      <circle cx="358" cy="182" r="24" fill="rgba(61,170,110,.07)" stroke="rgba(61,170,110,.25)" stroke-width="1"/>
-      <circle cx="358" cy="182" r="7" fill="#3daa6e" filter="url(#glow2)" opacity=".9"/>
-      <text class="proj-city-label" x="376" y="178" font-family="DM Sans,sans-serif" font-size="12" fill="rgba(255,255,255,.9)" font-weight="600">Kayseri</text>
-      <text class="proj-city-sub" x="376" y="193" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(255,255,255,.45)" id="sub-kay">Mazaca's historic roots — OSB land pipeline</text>
-    </svg>
+  <defs>
+    <clipPath id="turkey-shape">
+      <path d="M41.9,66.1 L41.9,40.8 L53.8,31.5 L77.7,26.9 L98.1,26.9 L102.2,24.6 L110.0,36.2 L123.6,50.0 L128.7,61.5 L137.2,70.7 L149.1,59.2 L166.2,52.3 L193.4,50.0 L227.4,50.0 L258.1,52.3 L302.3,47.7 L322.7,45.4 L341.5,24.6 L370.4,50.0 L380.6,61.5 L404.4,68.4 L428.3,73.0 L452.1,77.6 L482.7,75.3 L496.3,75.3 L511.7,73.0 L525.3,70.7 L544.0,56.9 L559.3,52.3 L574.6,50.0 L593.4,61.5 L622.3,70.7 L634.2,82.2 L647.8,98.4 L659.7,121.4 L670.0,135.2 L670.0,160.6 L659.7,188.3 L649.5,225.1 L637.6,243.6 L612.1,250.5 L588.3,255.1 L552.5,262.0 L547.4,257.4 L530.4,266.6 L496.3,273.5 L469.1,273.5 L443.6,273.5 L418.1,273.5 L406.1,273.5 L389.1,282.7 L375.5,301.2 L361.9,298.9 L355.1,285.0 L348.3,285.0 L321.0,296.6 L292.1,298.9 L278.5,289.7 L258.1,280.4 L230.8,278.1 L212.1,280.4 L200.2,273.5 L184.9,296.6 L162.8,303.5 L150.8,305.8 L132.1,294.3 L110.0,280.4 L99.8,282.7 L84.5,271.2 L72.5,262.0 L62.3,250.5 L58.9,239.0 L55.5,232.0 L48.7,220.5 L40.2,199.8 L47.0,188.3 L52.1,188.3 L47.0,183.6 L43.6,172.1 L55.5,162.9 L60.6,149.1 L47.0,128.3 L36.8,112.2 L41.9,105.3 L40.2,86.9 L40.2,77.6 L41.9,66.1 Z"/>
+    </clipPath>
+    <filter id="cityGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="700" height="340" fill="#f5f9f6" rx="12"/>
+  <g clip-path="url(#turkey-shape)">
+    <circle cx="84" cy="28" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="28" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="42" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="56" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="70" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="84" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="98" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="42" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="112" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="658" cy="126" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="658" cy="140" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="658" cy="154" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="658" cy="168" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="658" cy="182" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="196" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="210" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="56" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="644" cy="224" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="616" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="630" cy="238" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="70" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="532" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="546" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="560" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="574" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="588" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="602" cy="252" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="84" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="196" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="210" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="224" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="238" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="252" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="406" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="420" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="434" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="448" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="462" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="476" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="490" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="504" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="518" cy="266" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="98" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="112" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="126" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="266" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="280" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="336" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="350" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="392" cy="280" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="140" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="154" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="168" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="182" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="294" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="308" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="322" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="364" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+    <circle cx="378" cy="294" r="4" fill="#a8d4b4" opacity="0.6"/>
+  </g>
+  <circle cx="128.7" cy="70.7" r="10" fill="white" opacity="0.92"/>
+  <circle cx="128.7" cy="70.7" r="7.5" fill="#0d4a2a"/>
+  <circle cx="128.7" cy="70.7" r="3" fill="#3daa6e"/>
+  <text x="140.7" y="62.7" font-family="DM Sans,sans-serif" font-size="12" font-weight="700" fill="#0d2818">Istanbul</text>
+  <text id="sub-ist" x="140.7" y="76.7" font-family="DM Sans,sans-serif" font-size="10" fill="#4a6858">Turkey’s largest metropolis & primary digital hub</text>
+  <circle cx="263.2" cy="126.0" r="10" fill="white" opacity="0.92"/>
+  <circle cx="263.2" cy="126.0" r="7.5" fill="#0d4a2a"/>
+  <circle cx="263.2" cy="126.0" r="3" fill="#3daa6e"/>
+  <text x="275.2" y="118.0" font-family="DM Sans,sans-serif" font-size="12" font-weight="700" fill="#0d2818">Ankara</text>
+  <text id="sub-ank" x="275.2" y="132.0" font-family="DM Sans,sans-serif" font-size="10" fill="#4a6858">Capital & sovereign compute</text>
+  <circle cx="69.1" cy="195.2" r="10" fill="white" opacity="0.92"/>
+  <circle cx="69.1" cy="195.2" r="7.5" fill="#0d4a2a"/>
+  <circle cx="69.1" cy="195.2" r="3" fill="#3daa6e"/>
+  <text x="81.1" y="213.2" font-family="DM Sans,sans-serif" font-size="12" font-weight="700" fill="#0d2818">İzmir</text>
+  <text id="sub-izm" x="81.1" y="227.2" font-family="DM Sans,sans-serif" font-size="10" fill="#4a6858">Aegean connectivity hub</text>
+  <circle cx="251.3" cy="220.5" r="10" fill="white" opacity="0.92"/>
+  <circle cx="251.3" cy="220.5" r="7.5" fill="#0d4a2a"/>
+  <circle cx="251.3" cy="220.5" r="3" fill="#3daa6e"/>
+  <text x="263.3" y="212.5" font-family="DM Sans,sans-serif" font-size="12" font-weight="700" fill="#0d2818">Konya</text>
+  <text id="sub-kon" x="263.3" y="226.5" font-family="DM Sans,sans-serif" font-size="10" fill="#4a6858">Central Anatolian industrial hub</text>
+  <circle cx="353.4" cy="181.3" r="10" fill="white" opacity="0.92"/>
+  <circle cx="353.4" cy="181.3" r="7.5" fill="#0d4a2a"/>
+  <circle cx="353.4" cy="181.3" r="3" fill="#3daa6e"/>
+  <text x="365.4" y="173.3" font-family="DM Sans,sans-serif" font-size="12" font-weight="700" fill="#0d2818">Kayseri</text>
+  <text id="sub-kay" x="365.4" y="187.3" font-family="DM Sans,sans-serif" font-size="10" fill="#4a6858">Mazaca’s historic roots — OSB land pipeline</text>
+</svg>
   </div>
 </section>
 
@@ -456,18 +1182,18 @@ en: {
   'ab-p2':'Mazaca Infrastructure develops industrial sites into Ready-to-Build data centre opportunities for operators, investors and digital infrastructure platforms.',
   'ab-p3':'We combine local origination, grid access, permitting expertise and institutional structuring to unlock the powered land required for Turkey\u2019s next wave of digital infrastructure growth.',
   'ab-nhdr':'Recent operator activity in Turkey',
-  'ni1t':'Equinix opens second Istanbul IBX (IL4), Oct 2024','ni1d':'1,125 cabinets, 3,044 m\u00b2 of colocation space with liquid cooling \u2014 Equinix\u2019s first high-density AI-ready facility in Turkey',
-  'ni2t':'DAMAC Digital + Vodafone Turkey \u2014 $100M Izmir JV, Feb 2024','ni2d':'Joint venture to build a new data centre in \u0130zmir; Vodafone Turkey\u2019s sixth facility in the country',
-  'ni3t':'Khazna Data Centers (G42) \u2014 up to 100 MW near Ankara','ni3d':'AI-ready campus at Ba\u015fkent Organised Industrial Zone; Ankara set to surpass Istanbul in upcoming capacity',
-  'ni4t':'Trendyol (Alibaba) \u2014 $500M, 48 MW Ankara campus','ni4d':'Partnership with UAE-based Castle Investments; phased capacity launch from 2026',
-  'ni5t':'Google announces Turkey cloud region, Nov 2025','ni5d':'Partnership with Turkcell to introduce hyperscale cloud and AI services with local data residency',
-  'ni6t':'EdgeConneX enters Istanbul market, 2024','ni6d':'Among the new hyperscale entrants expanding Istanbul\u2019s capacity alongside existing players Equinix and Turkcell',
+  'ni1t':'Equinix announces Istanbul IL3, Q3 2026','ni1d':'Third IBX on the Dudullu OSB campus confirmed in Equinix’s global expansion roadmap — extending Istanbul’s position as the region’s primary carrier-neutral hub',
+  'ni2t':'KKB expands Ankara data centre to 30 MW — second module','ni2d':'Turkey’s Credit Registration Bureau adds a second building module at its Tier IV Anadolu facility in Sincan, taking total capacity to 30 MW and reinforcing Ankara as a sovereign-compute location',
+  'ni3t':'Google announces Turkey cloud region, Nov 2025','ni3d':'Partnership with Turkcell to introduce hyperscale cloud and AI services with local data residency',
+  'ni4t':'Equinix IL4 opens in Istanbul, Oct 2024 — 9 MW','ni4d':'1,125 cabinets across 3,045 m² of colocation space with liquid cooling — Equinix’s first high-density AI-ready facility in Turkey',
+  'ni5t':'Trendyol (Alibaba) — $500M, 48 MW Ankara campus','ni5d':'Partnership with UAE-based Castle Investments; phased capacity launch from 2026',
+  'ni6t':'DAMAC Digital + Vodafone Turkey — $100M İzmir JV, Feb 2024','ni6d':'Joint venture to build a new data centre in İzmir; Vodafone Turkey’s sixth facility in the country','ni7t':'Khazna Data Centers (G42) — up to 100 MW near Ankara','ni7d':'AI-ready campus at Başkent Organised Industrial Zone; Ankara set to surpass Istanbul in upcoming capacity',
   'svc-ey':'What We Do','svc-ti':'A single value chain, end to end',
   'svc-lead':'Mazaca manages the full lifecycle from land to institutional-grade asset, removing risk at every stage so capital can deploy with confidence.',
   'vc1-ti':'Site Identification','vc1-bd':'We source strategically located industrial land across Turkey\u2019s key digital markets, prioritising sites with existing grid infrastructure and backbone connectivity.',
-  'vc2-ti':'Power Securing','vc2-bd':'We lead the full TEİAŞ grid connection process, securing large-scale energy allocations with dual medium-voltage connections on behalf of the site owner.',
-  'vc3-ti':'Permitting &amp; Design','vc3-bd':'Zoning alignment, EIA completion, municipality approvals, and Tier III/IV conceptual design \u2014 all delivered to permit-ready standard with dual fibre secured.',
-  'vc4-ti':'Investor Exit','vc4-bd':'We market to global hyperscale operators and institutional platforms, structuring the exit through outright sale, long-term lease, or structured co-development.',
+  'vc2-ti':'Power Securing','vc2-bd':'We lead the full TEİAŞ grid connection process, securing large-scale energy allocations with dual medium-voltage connections on behalf of the site owner.','vc3-ti':'Fiber &amp; Connectivity','vc3-bd':'We verify and secure dual-path fiber connectivity from national backbone providers, assess carrier-neutral exchange proximity, and commission telecom infrastructure design — a non-negotiable condition for any institutional operator.',
+  'vc4-ti':'Permitting &amp; Design','vc4-bd':'Zoning alignment, EIA completion, municipality approvals, and Tier III/IV conceptual design \u2014 all delivered to permit-ready standard with dual fibre secured.',
+  'vc5-ti':'Investor Exit','vc5-bd':'We market to global hyperscale operators and institutional platforms, structuring the exit through outright sale, long-term lease, or structured co-development.',
   'prj-ey':'Project Pipeline','prj-ti':'Five markets across Turkey',
   'prj-lead':'Our pipeline spans Turkey\u2019s largest demand centres and industrial hubs \u2014 combining hyperscale connectivity with access to growing enterprise, government and AI compute markets.',
   'sub-ist':"Turkey\u2019s largest metropolis & primary digital hub",
@@ -502,18 +1228,18 @@ tr: {
   'ab-p2':'Mazaca Infrastructure, sanayi arazilerini operatörler, yatırımcılar ve dijital altyapı platformları için Hazır-İnşa veri merkezi fırsatlarına dönüştürüyor.',
   'ab-p3':"Türkiye'nin dijital altyapı büyümesinin bir sonraki dalgası için gerekli olan güçlendirilmiş araziyi açmak adına yerel kaynak yaratma, şebeke erişimi, ruhsatlandırma uzmanlığı ve kurumsal yapılandırmayı bir araya getiriyoruz.",
   'ab-nhdr':"Türkiye'deki Son Operatör Faaliyetleri",
-  'ni1t':'Equinix İstanbul\'da ikinci IBX merkezini (IL4) açtı, Ek. 2024','ni1d':"1.125 kabin, 3.044 m\u00b2 kolokasiyon alanı ve sıvı soğutma — Equinix'in Türkiye'deki ilk yüksek yoğunluklu yapay zeka destekli tesisi",
-  'ni2t':'DAMAC Digital + Vodafone Türkiye — 100M$ İzmir OYK\'sı, Şub. 2024','ni2d':"İzmir'de yeni bir veri merkezi inşa etmek için ortak girişim; Vodafone Türkiye'nin ülkedeki altıncı tesisi",
-  'ni3t':'Khazna Veri Merkezleri (G42) — Ankara yakınında 100 MW\'a kadar','ni3d':"Başkent Organize Sanayi Bölgesi'nde yapay zekaya hazır kampüs; Ankara yakın kapasite açısından İstanbul'u geçmeye aday",
-  'ni4t':'Trendyol (Alibaba) — 500M$, 48 MW Ankara kampüsü','ni4d':'BAE merkezli Castle Investments ile ortaklık; 2026\'dan itibaren aşamalı kapasite lansmanı',
-  'ni5t':'Google, Kasım 2025\'te Türkiye bulut bölgesini açıkladı','ni5d':'Yerel veri ikameti ile hiper ölçekli bulut ve yapay zeka hizmetleri sunmak için Turkcell ile ortaklık',
-  'ni6t':'EdgeConneX, 2024\'te İstanbul pazarına girdi','ni6d':"Equinix ve Turkcell'in yanı sıra İstanbul'un kapasitesini genişleten yeni hiper ölçekli oyuncular arasında",
+  'ni1t':'Equinix, İstanbul IL3\'ü duyurdu — T3 2026'da ikinci IBX merkezini (IL4) açtı, Ek. 2024','ni1d':'Dudullu OSB kampüsündeki üçüncü IBX, Equinix\'in küresel genişleme yol haritasında teyit edildi — İstanbul\'un bölgenin birincil taşıyıcıdan bağımsız merkezi konumunu pekiştiriyor',
+  'ni2t':'KKB, Ankara veri merkezini 30 MW\'a genişletiyor — ikinci modül'sı, Şub. 2024','ni2d':'Türkiye\'nin Kredi Kayıt Bürosu, Sincan\'daki Tier IV Anadolu tesisine ikinci bir bina modülü ekliyor; toplam kapasiteyi 30 MW\'a çıkararak Ankara\'yı egemen hesaplama konumu olarak güçlendiriyor',
+  'ni3t':'Google, Kasım 2025\'te Türkiye bulut bölgesini açıkladı'a kadar','ni3d':'Yerel veri ikameti ile hiper ölçekli bulut ve yapay zeka hizmetleri sunmak için Turkcell ile ortaklık',
+  'ni4t':'Equinix IL4, İstanbul\'da açıldı, Ek. 2024 — 9 MW','ni4d':'Sıvı soğutma ile 3.045 m² kolokasiyon alanında 1.125 kabin — Equinix\'in Türkiye\'deki ilk yüksek yoğunluklu yapay zekaya hazır tesisi'dan itibaren aşamalı kapasite lansmanı',
+  'ni5t':'Trendyol (Alibaba) — 500M$, 48 MW Ankara kampüsü'te Türkiye bulut bölgesini açıkladı','ni5d':'BAE merkezli Castle Investments ile ortaklık; 2026\'dan itibaren aşamalı kapasite lansmanı',
+  'ni6t':'DAMAC Digital + Vodafone Türkiye — 100M$ İzmir OYK\'sı, Şub. 2024'te İstanbul pazarına girdi','ni6d':'İzmir\','ni7t':'Khazna Veri Merkezleri (G42) — Ankara yakınında 100 MW\'a kadar','ni7d':'Başkent Organize Sanayi Bölgesi\'nde yapay zekaya hazır kampüs; Ankara yakın kapasite açısından İstanbul\'u geçmeye aday'de yeni bir veri merkezi inşa etmek için ortak girişim; Vodafone Türkiye\'nin ülkedeki altıncı tesisi',
   'svc-ey':'Ne Yapıyoruz','svc-ti':'Uçtan Uca Tek Bir Değer Zinciri',
   'svc-lead':'Mazaca, araziden kurumsal kalitede varlığa kadar olan tüm yaşam döngüsünü yönetiyor; her aşamada riski azaltarak sermayenin güvenle konuşlanmasını sağlıyor.',
   'vc1-ti':'Alan Belirleme','vc1-bd':"Türkiye'nin kilit dijital pazarlarındaki stratejik konumlu sanayi arazilerini belirliyoruz; mevcut şebeke altyapısı ve omurga bağlantısı olan alanlara öncelik veriyoruz.",
-  'vc2-ti':'Güç Temini','vc2-bd':'Alan sahibi adına çift orta gerilim bağlantısıyla büyük ölçekli enerji tahsislerini güvence altına alarak TEİAŞ şebeke bağlantı sürecinin tamamını yönetiyoruz.',
-  'vc3-ti':'Ruhsatlandırma &amp; Tasarım','vc3-bd':'İmar uyumu, ÇED tamamlama, belediye onayları ve Tier III/IV kavramsal tasarım — tüm bunlar çift fiber teminiyle ruhsata hazır standartta sunuluyor.',
-  'vc4-ti':'Yatırımcı Çıkışı','vc4-bd':'Küresel hiper ölçekli operatörlere ve kurumsal platformlara pazarlama yaparak çıkışı doğrudan satış, uzun vadeli kiralama veya yapılandırılmış ortak geliştirme yoluyla yapılandırıyoruz.',
+  'vc2-ti':'Güç Temini','vc2-bd':'Alan sahibi adına çift orta gerilim bağlantısıyla büyük ölçekli enerji tahsislerini güvence altına alarak TEİAŞ şebeke bağlantı sürecinin tamamını yönetiyoruz.','vc3-ti':'Fiber &amp; Bağlantı','vc3-bd':'Ulusal omurga sağlayıcılarından çift yollu fiber bağlantıyı doğruluyoruz; taşıyıcıdan bağımsız değişimi değlendiriyor ve telekomünikasyon altyapısı tasarımını devreye alıyoruz — kurumsal herhangi bir operatör için zorunlu bir koşul.',
+  'vc4-ti':'Ruhsatlandırma &amp; Tasarım','vc4-bd':'İmar uyumu, ÇED tamamlama, belediye onayları ve Tier III/IV kavramsal tasarım — tüm bunlar çift fiber teminiyle ruhsata hazır standartta sunuluyor.',
+  'vc5-ti':'Yatırımcı Çıkışı','vc5-bd':'Küresel hiper ölçekli operatörlere ve kurumsal platformlara pazarlama yaparak çıkışı doğrudan satış, uzun vadeli kiralama veya yapılandırılmış ortak geliştirme yoluyla yapılandırıyoruz.',
   'prj-ey':'Proje Hattı','prj-ti':'Türkiye Genelinde Beş Pazar',
   'prj-lead':"Portföyümüz Türkiye'nin en büyük talep merkezlerini ve sanayi havzalarını kapsıyor — hiper ölçekli bağlantıyı büyüyen kurumsal, hükümet ve yapay zeka hesaplama pazarlarına erişimle birleştiriyor.",
   'sub-ist':"Türkiye'nin en büyük metropolü & birincil dijital merkezi",
@@ -548,18 +1274,18 @@ de: {
   'ab-p2':'Mazaca Infrastructure entwickelt Industriestandorte zu Ready-to-Build-Rechenzentrumsopportunitäten für Betreiber, Investoren und digitale Infrastrukturplattformen.',
   'ab-p3':'Wir bündeln lokale Standortakquise, Netzanschluss, Genehmigungsexpertise und institutionelle Strukturierung, um die erschlossenen Flächen bereitzustellen, die Türkeis nächste Welle digitalen Infrastrukturwachstums erfordert.',
   'ab-nhdr':'Aktuelle Betreiberaktivitäten in der Türkei',
-  'ni1t':'Equinix eröffnet zweites Istanbuler IBX (IL4), Okt. 2024','ni1d':'1.125 Racks, 3.044\u00a0m\u00b2 Colocation-Fläche mit Flüssigkühlung \u2014 Equinix\u2019 erste hochdichte KI-fähige Anlage in der Türkei',
-  'ni2t':'DAMAC Digital + Vodafone Türkei \u2014 100-Mio.-USD-JV in Izmir, Feb. 2024','ni2d':'Joint Venture zum Bau eines neuen Rechenzentrums in İzmir; das sechste Vodafone-Türkei-Rechenzentrum im Land',
-  'ni3t':'Khazna Data Centers (G42) \u2014 bis zu 100\u00a0MW nahe Ankara','ni3d':'KI-fähiger Campus im Başkent Organisierten Industriegebiet; Ankara auf dem Weg, Istanbul bei der geplanten Kapazität zu überholen',
-  'ni4t':'Trendyol (Alibaba) \u2014 500\u00a0Mio. USD, 48-MW-Campus in Ankara','ni4d':'Partnerschaft mit dem VAE-Investor Castle Investments; stufenweiser Kapazitätshochlauf ab 2026',
-  'ni5t':'Google kündigt Türkei-Cloud-Region an, Nov. 2025','ni5d':'Partnerschaft mit Turkcell für Hyperscale-Cloud- und KI-Dienste mit lokalem Datensitz',
-  'ni6t':'EdgeConneX tritt 2024 in den Istanbuler Markt ein','ni6d':'Unter den neuen Hyperscalern, die Istanbuls Kapazität neben Equinix und Turkcell ausbauen',
+  'ni1t':'Equinix kündigt Istanbul IL3 an — Q3 2026','ni1d':'Das dritte IBX auf dem Dudullu-OSB-Campus ist in Equinix’ globalem Expansionsfahrplan bestätigt und festigt Istanbuls Position als primärer carrier-neutraler Hub der Region',
+  'ni2t':'KKB erweitert Ankara-Rechenzentrum auf 30 MW — zweites Modul','ni2d':'Türkeis Kreditregistrierungsbüro fügt an seiner Tier-IV-Anlage Anadolu in Sincan ein zweites Gebäudemodul hinzu und erhöht damit die Gesamtkapazität auf 30 MW',
+  'ni3t':'Google kündigt Türkei-Cloud-Region an, Nov. 2025','ni3d':'Partnerschaft mit Turkcell für Hyperscale-Cloud- und KI-Dienste mit lokalem Datensitz',
+  'ni4t':'Equinix IL4 eröffnet in Istanbul, Okt. 2024 — 9 MW','ni4d':'1.125 Racks auf 3.045 m² Colocation-Fläche mit Flüssigkühlung — Equinix’ erste hochdichte KI-fähige Anlage in der Türkei',
+  'ni5t':'Trendyol (Alibaba) — 500 Mio. USD, 48-MW-Campus in Ankara','ni5d':'Partnerschaft mit dem VAE-Investor Castle Investments; stufenweiser Kapazitätshochlauf ab 2026',
+  'ni6t':'DAMAC Digital + Vodafone Türkei — 100-Mio.-USD-JV in Izmir, Feb. 2024','ni6d':'Joint Venture zum Bau eines neuen Rechenzentrums in İzmir; das sechste Vodafone-Türkei-Rechenzentrum im Land','ni7t':'Khazna Data Centers (G42) — bis zu 100 MW nahe Ankara','ni7d':'KI-fähiger Campus im Başkent Organisierten Industriegebiet; Ankara auf dem Weg, Istanbul bei der geplanten Kapazität zu überholen',
   'svc-ey':'Was wir tun','svc-ti':'Eine einzige Wertschöpfungskette \u2014 von Anfang bis Ende',
   'svc-lead':'Mazaca verwaltet den gesamten Lebenszyklus vom Grundstück bis zum institutionellen Asset und reduziert in jeder Phase das Risiko, damit Kapital mit Zuversicht eingesetzt werden kann.',
   'vc1-ti':'Standortidentifikation','vc1-bd':'Wir ermitteln strategisch gelegene Industriestandorte in den wichtigsten digitalen Märkten der Türkei und bevorzugen dabei Grundstücke mit bestehender Netzinfrastruktur und Backbone-Anbindung.',
-  'vc2-ti':'Netzanschluss &amp; Stromversorgung','vc2-bd':'Wir leiten den vollständigen TEİAŞ-Netzanschlussprozess und sichern im Namen des Grundstückseigentümers großvolumige Energiezuteilungen mit doppeltem Mittelspannungsanschluss.',
-  'vc3-ti':'Genehmigung &amp; Design','vc3-bd':'Bauleitplanabstimmung, UVP-Fertigstellung, Behördengenehmigungen und Tier-III/IV-Konzeptdesign \u2014 alles mit gesicherter Doppelfaseranbindung im genehmigungsreifen Standard geliefert.',
-  'vc4-ti':'Investorenausstieg','vc4-bd':'Wir vermarkten an globale Hyperscaler und institutionelle Plattformen und strukturieren den Exit durch Direktverkauf, Langzeitpacht oder strukturierte Ko-Entwicklung.',
+  'vc2-ti':'Netzanschluss &amp; Stromversorgung','vc2-bd':'Wir leiten den vollständigen TEİAŞ-Netzanschlussprozess und sichern im Namen des Grundstückseigentümers großvolumige Energiezuteilungen mit doppeltem Mittelspannungsanschluss.','vc3-ti':'Glasfaser &amp; Konnektivität','vc3-bd':'Wir verifizieren und sichern doppelwegige Glasfaserverbindungen von nationalen Backbone-Anbietern, bewerten die Nähe zu carrier-neutralen Exchanges und beauftragen das Telekommunikationsinfrastruktur-Design — eine unverzichtbare Voraussetzung für jeden institutionellen Betreiber.',
+  'vc4-ti':'Genehmigung &amp; Design','vc4-bd':'Bauleitplanabstimmung, UVP-Fertigstellung, Behördengenehmigungen und Tier-III/IV-Konzeptdesign \u2014 alles mit gesicherter Doppelfaseranbindung im genehmigungsreifen Standard geliefert.',
+  'vc5-ti':'Investorenausstieg','vc5-bd':'Wir vermarkten an globale Hyperscaler und institutionelle Plattformen und strukturieren den Exit durch Direktverkauf, Langzeitpacht oder strukturierte Ko-Entwicklung.',
   'prj-ey':'Projektpipeline','prj-ti':'Fünf Märkte in der ganzen Türkei',
   'prj-lead':'Unsere Pipeline umfasst die wichtigsten Nachfragezentren und Industriestandorte der Türkei \u2014 sie verbindet Hyperscale-Konnektivität mit dem Zugang zu wachsenden Unternehmens-, Behörden- und KI-Compute-Märkten.',
   'sub-ist':'Größte Metropole der Türkei & primärer digitaler Hub',
